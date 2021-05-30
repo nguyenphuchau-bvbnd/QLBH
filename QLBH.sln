@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLBH.Data", "QLBH.Data\QLBH.Data.csproj", "{814E4D9C-6FB4-4512-B337-74DAA6D465A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLBH.Application", "QLBH.Application\QLBH.Application.csproj", "{F94F6B9D-0EDE-4A48-AC4D-9F71768F34BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{08214FDB-1D0D-4322-8C9D-FDDB91B36113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08214FDB-1D0D-4322-8C9D-FDDB91B36113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08214FDB-1D0D-4322-8C9D-FDDB91B36113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814E4D9C-6FB4-4512-B337-74DAA6D465A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814E4D9C-6FB4-4512-B337-74DAA6D465A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814E4D9C-6FB4-4512-B337-74DAA6D465A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814E4D9C-6FB4-4512-B337-74DAA6D465A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94F6B9D-0EDE-4A48-AC4D-9F71768F34BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94F6B9D-0EDE-4A48-AC4D-9F71768F34BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94F6B9D-0EDE-4A48-AC4D-9F71768F34BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94F6B9D-0EDE-4A48-AC4D-9F71768F34BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
