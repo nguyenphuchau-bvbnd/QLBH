@@ -9,7 +9,7 @@ using QLBH.Data.EF;
 
 namespace QLBH.Data.Migrations
 {
-    [DbContext(typeof(EShopDbContext))]
+    [DbContext(typeof(QLBHDbContext))]
     [Migration("20210606034110_SeedingData")]
     partial class SeedingData
     {

@@ -8,7 +8,7 @@ using QLBH.Data.EF;
 
 namespace QLBH.Data.Migrations
 {
-    [DbContext(typeof(EShopDbContext))]
+    [DbContext(typeof(QLBHDbContext))]
     partial class EShopDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
