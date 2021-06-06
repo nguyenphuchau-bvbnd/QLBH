@@ -8,9 +8,9 @@ using QLBH.Data.Extensions;
 
 namespace QLBH.Data.EF
 {
-    public class EShopDbContext : DbContext
+    public class QLBHDbContext : DbContext
     {
-        public EShopDbContext(DbContextOptions options) : base(options)
+        public QLBHDbContext(DbContextOptions options) : base(options)
         {
         }
 
@@ -24,7 +24,6 @@ namespace QLBH.Data.EF
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
             modelBuilder.ApplyConfiguration(new ProductInCategoryConfiguration());
             modelBuilder.ApplyConfiguration(new OrderConfiguration());
-
             modelBuilder.ApplyConfiguration(new OrderDetailConfiguration());
             modelBuilder.ApplyConfiguration(new CategoryTranslationConfiguration());
             modelBuilder.ApplyConfiguration(new ContactConfiguration());

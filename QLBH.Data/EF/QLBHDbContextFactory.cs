@@ -8,9 +8,9 @@ using System.Text;
 
 namespace QLBH.Data.EF
 {
-    public class EShopDbContextFactory : IDesignTimeDbContextFactory<EShopDbContext>
+    public class QLBHDbContextFactory : IDesignTimeDbContextFactory<QLBHDbContext>
     {
-        public EShopDbContext CreateDbContext(string[] args)
+        public QLBHDbContext CreateDbContext(string[] args)
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
@@ -19,10 +19,10 @@ namespace QLBH.Data.EF
 
             var connectionString = configuration.GetConnectionString("QLBHDb");
 
-            var optionsBuilder = new DbContextOptionsBuilder<EShopDbContext>();
+            var optionsBuilder = new DbContextOptionsBuilder<QLBHDbContext>();
             optionsBuilder.UseSqlServer(connectionString);
 
-            return new EShopDbContext(optionsBuilder.Options);
+            return new QLBHDbContext(optionsBuilder.Options);
         }
     }
 }
